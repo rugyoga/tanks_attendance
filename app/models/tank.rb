@@ -1,3 +1,3 @@
 class Tank < ActiveRecord::Base
-  has_many :tankers
+  has_and_belongs_to_many :tankers
 end
